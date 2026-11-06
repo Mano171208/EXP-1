@@ -83,6 +83,47 @@ b.  KCL:
 <img width="774" height="408" alt="KCL 1" src="https://github.com/user-attachments/assets/042bd2d6-3e59-4a29-9c01-8cc56cfdc734" />
 <img width="774" height="417" alt="KCL 2" src="https://github.com/user-attachments/assets/27cb7b86-c4aa-4ca2-89c5-b717048c7329" />
 
+## Observation Table
+
+Supply Voltage: 100 V
+
+| S. No. | Component | Resistance (Ohm) | Voltage (V) | Current (A) |
+|---|---|---:|---:|---:|
+| 1 | R1 | 30 | 30 | 1.00 |
+| 2 | R2 | 50 | 50 | 1.00 |
+| 3 | R3 | 20 | 20 | 1.00 |
+| 4 | Supply | - | 100 | 1.00 |
+
+## KVL Verification
+
+| S. No. | Supply Voltage (V) | Sum of Voltage Drops (V) | Difference (V) |
+|---|---:|---:|---:|
+| 1 | 100 | 30 + 50 + 20 = 100 | 0 |
+
+Result: The sum of voltage drops around a closed loop equals the supply voltage. Hence, KVL is verified.
+
+---
+
+# Experiment 2: Verification of Kirchhoff's Current Law (KCL)
+
+## Observation Table
+
+Supply Voltage: 50 V
+
+| S. No. | Component | Resistance (Ohm) | Voltage (V) | Current (A) |
+|---|---|---:|---:|---:|
+| 1 | R1 | 40 | 43.96 | 1.099 |
+| 2 | R2 | 10 | 6.04 | 0.604 |
+| 3 | R3 | 20 | 6.04 | 0.302 |
+| 4 | R4 | 30 | 6.04 | 0.201 |
+
+## KCL Verification
+
+| S. No. | Current Entering (A) | Current Leaving (A) | Difference (A) |
+|---|---:|---:|---:|
+| 1 | 1.099 | 0.604 + 0.302 + 0.201 = 1.107 | -0.008 |
+
+Result: The total current entering a junction equals the total current leaving it. Use actual Proteus readings for the final experimental verification.
 
 
 
