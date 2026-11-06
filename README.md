@@ -85,7 +85,6 @@ b.  KCL:
 
 
 
-Result: The total current entering a junction equals the total current leaving it. Use actual Proteus readings for the final experimental verification.
 
 
 
